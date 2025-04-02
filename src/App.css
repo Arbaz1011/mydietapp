@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+/* src/App.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  color: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+  color: #00FFFF; /* Electric Blue */
+}
+
+button {
+  background-color: #FF6EC7; /* Neon Pink */
+  color: #121212;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #FF1493; /* Deep Pink */
+}
+

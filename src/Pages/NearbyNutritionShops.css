@@ -1,0 +1,47 @@
+/* Container styling */
+.nearby-nutrition-shops-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+/* Title styling */
+.nearby-nutrition-shops-container h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Map wrapper */
+.map-wrapper {
+  width: 90%;
+  max-width: 800px;
+  height: 500px;
+  margin-top: 20px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Leaflet map container */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+}
+
+/* Loading and error messages */
+.nearby-nutrition-shops-container p {
+  font-size: 18px;
+  color: #555;
+  margin-top: 10px;
+}
+
+.nearby-nutrition-shops-container p[style="color: red;"] {
+  font-weight: bold;
+}
