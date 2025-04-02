@@ -7,7 +7,11 @@ const WorkoutPlan = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const WORKOUT_API_URL = "/Prod/workout"; // proxy path
+  // ✅ Automatically switch between local (proxy) and production (full URL)
+  const isLocal = window.location.hostname === "localhost";
+  const WORKOUT_API_URL = isLocal
+    ? "/Prod/workout"
+    : "https://ej9wc7ktl1.execute-api.us-east-1.amazonaws.com/Prod/workout";
 
   const fetchWorkoutPlan = async () => {
     const trimmedName = name.trim();
