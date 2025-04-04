@@ -27,7 +27,7 @@ const Navbar = () => {
           <li><Link to="/">Home</Link></li>
           <li><Link to="/meal-plan">Meal Plan</Link></li>
           <li><Link to="/nearby-nutrition-shops">Nearby Nutrition Shops</Link></li>
-          <li><Link to="/workout-plan">Workout Plan</Link></li> {/* Updated path */}
+          <li><Link to="/workout-plan">Workout Plan</Link></li>
           <li><button onClick={handleLogout} className="logout-btn">Logout</button></li>
         </ul>
       </div>
